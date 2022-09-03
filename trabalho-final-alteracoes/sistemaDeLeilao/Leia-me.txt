@@ -1,0 +1,20 @@
+Como executar o projeto
+
+Configuração do banco de dados
+
+Abra o phpmyadmin
+Criar banco de dados carrental
+Importar banco de dados carrental.sql (pasta de arquivo SQL disponível dentro do pacote zip)
+
+Para usuário
+Abra Seu navegador coloque dentro do navegador “http://localhost/sistemadeleilao”
+Detalhes de login do usuário:
+Email: migoz@gmail.com
+Senha: 12345
+
+Para painel de administração
+Abra Seu navegador coloque dentro do navegador “http://localhost/carrental/admin”
+Detalhes de login para administrador:
+Usuario: admin
+Senha: 1234
+
