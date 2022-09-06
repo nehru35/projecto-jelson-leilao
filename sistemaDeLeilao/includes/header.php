@@ -26,6 +26,21 @@
       <li><a href="about.php">Acerca de nós</a></li>
       <li><a href="car_list.php">Lista de carros</a></li>
       <li><a href="contact.php">Contactos</a></li>
+
+      <?php   if(strlen($_SESSION['login'])==0)
+      { 
+        ?>
+        <li>
+          <button 
+            type="button" 
+            class="btn-banner"
+            data-target="#loginform" data-toggle="modal"> Entrar / Cadastrar
+          </button>
+        </li>
+        <?php 
+      }?>
+
+      
       <?php   if(strlen($_SESSION['login'])!=0)
       { 
         ?>

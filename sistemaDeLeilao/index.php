@@ -34,6 +34,7 @@ error_reporting(0);
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet"> 
+  
 </head>
 
 <body id="body">
@@ -41,21 +42,8 @@ error_reporting(0);
   
     <section id="hero" class="clearfix">
       <div class="container">
-
-        <div class="hero-banner">
-        </div>
-
-        <div class="hero-content">
-          <div>
-            <?php   if(strlen($_SESSION['login'])==0)
-            { 
-              ?>
-              <a href="#loginform" data-toggle="modal" data-dismiss="modal" class="btn-banner">Entrar / Cadastrar</a> 
-              <?php 
-            }?>
-         </div>
+        <div class="hero-banner"></div>
        </div>
-
      </div> 
    </section><!-- #Hero -->
 
