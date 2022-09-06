@@ -9275,7 +9275,8 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-.nav-menu li button.btn-banner, #hero .hero-content .btn-banner, #hero .hero-content .btn-projects  {
+.nav-menu li button.btn-banner,
+#hero .hero-content .btn-projects  {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: bold;
@@ -9290,15 +9291,14 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
 }
 
-.nav-menu li button.btn-banner,
-#hero .hero-content .btn-banner {
+.nav-menu li button.btn-banner {
   background: #2a3392;
   border: 2px solid #2a3392;
   border-radius: 30px;
+  padding: 5px 7px;
 }
 
-.nav-menu li button.btn-banner:hover,
-#hero .hero-content .btn-banner:hover {
+.nav-menu li button.btn-banner:hover {
   background: none;
   color: #2a3392;
 }
