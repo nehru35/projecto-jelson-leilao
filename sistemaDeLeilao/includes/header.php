@@ -26,7 +26,6 @@
       <li><a href="about.php">Acerca de nós</a></li>
       <li><a href="car_list.php">Lista de carros</a></li>
       <li><a href="contact.php">Contactos</a></li>
-      <li><a href="admin">Admin</a></li>
       <?php   if(strlen($_SESSION['login'])!=0)
       { 
         ?>
