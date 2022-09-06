@@ -106,29 +106,7 @@ error_reporting(0);
           }?>
         </div>
       </div>
-    </section><!-- #services -->
-
-    <!--==========================
-      Clients Section
-      ============================-->
-      <section id="clients" class="wow fadeInUp">
-        <div class="container">
-          <div class="section-header">
-            <h2>Cliente</h2>
-            <p>Faça uma boa escolha de lote e bons remates para poder alcançar o sonho de ter o carro próprio</p>
-          </div>
-
-          <div class="owl-carousel clients-carousel">
-            <img src="img/clients/client-1.png" alt="">
-            <img src="img/clients/client-2.png" alt="">
-            <img src="img/clients/client-3.png" alt="">
-            <img src="img/clients/client-4.png" alt="">
-            <img src="img/clients/client-5.png" alt="">
-            <img src="img/clients/client-6.png" alt="">
-          </div>
-
-        </div>
-      </section><!-- #clients --> 
+    </section><!-- #services --> 
    
       <section id="call-to-action" class="wow fadeInUp">
         <div class="container">

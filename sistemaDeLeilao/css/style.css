@@ -9412,7 +9412,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 8px;
   text-decoration: none;
   display: inline-block;
-  color: #ffffff9c;
+  color: #002752;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 14px;
@@ -9420,7 +9420,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .nav-menu > .menu-active > a {
-  color: #fff;
+  color: #000;
 }
 
 .nav-menu > li {
